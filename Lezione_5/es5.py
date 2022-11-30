@@ -120,10 +120,10 @@ class NumericalCSVFile(CSVFile):
 #  Esempio di utilizzo
 #==============================
 
-#mio_file = CSVFile(name='shampoo_sales.csv')
-#print('Nome del file: "{}"'.format(mio_file.name))
-#print('Dati contenuti nel file: "{}"'.format(mio_file.get_data()))
+mio_file = CSVFile(name='shampoo_sales.csv')
+print('Nome del file: "{}"'.format(mio_file.name))
+print('Dati contenuti nel file: "{}"'.format(mio_file.get_data()))
 
-#mio_file_numerico = NumericalCSVFile(name='shampoo_sales.csv')
-#print('Nome del file: "{}"'.format(mio_file_numerico.name))
-#print('Dati contenuti nel file: "{}"'.format(mio_file_numerico.get_data()))
+mio_file_numerico = NumericalCSVFile(name='shampoo_sales.csv')
+print('Nome del file: "{}"'.format(mio_file_numerico.name))
+print('Dati contenuti nel file: "{}"'.format(mio_file_numerico.get_data()))
